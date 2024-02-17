@@ -1,8 +1,7 @@
 # LeetCode-Algorithm-Challenges
 Repository containing solutions to LeetCode problems in various programming languajes such as Python, Java, JavaScript, etc. Improve your problem-solving skills and practice algorithms with these well-documented solutions
 
-
-```
+```markdown
 
 leetcode-solutions/
 ├── arrays/
@@ -68,5 +67,65 @@ leetcode-solutions/
 │           ├── RegularExpressionMatching.cpp
 │           └── test_regular_expression_matching.cpp
 └── ...
+
+```
+
+Ejemplo 1: Organización por categoría y lenguaje sin dificultad en las carpetas:
+
+```markdown
+
+leetcode/
+├── arrays/
+│   ├── python/
+│   │   ├── two_sum.py
+│   │   └── test_two_sum.py
+│   ├── java/
+│   │   ├── TwoSum.java
+│   │   └── TestTwoSum.java
+│   └── cpp/
+│       ├── TwoSum.cpp
+│       └── test_two_sum.cpp
+├── strings/
+│   ├── python/
+│   │   ├── longest_palindromic_substring.py
+│   │   └── test_longest_palindromic_substring.py
+│   ├── java/
+│   │   ├── LongestPalindromicSubstring.java
+│   │   └── TestLongestPalindromicSubstring.java
+│   └── cpp/
+│       ├── LongestPalindromicSubstring.cpp
+│       └── test_longest_palindromic_substring.cpp
+└── ...
+
+```
+
+Ejemplo 2: Organización por lenguaje y luego categoría sin dificultad en las carpetas:
+
+```markdown
+leetcode/
+├── python/
+│   ├── arrays/
+│   │   ├── two_sum.py
+│   │   └── test_two_sum.py
+│   ├── strings/
+│   │   ├── longest_palindromic_substring.py
+│   │   └── test_longest_palindromic_substring.py
+│   └── ...
+├── java/
+│   ├── arrays/
+│   │   ├── TwoSum.java
+│   │   └── TestTwoSum.java
+│   ├── strings/
+│   │   ├── LongestPalindromicSubstring.java
+│   │   └── TestLongestPalindromicSubstring.java
+│   └── ...
+└── cpp/
+    ├── arrays/
+    │   ├── TwoSum.cpp
+    │   └── test_two_sum.cpp
+    ├── strings/
+    │   ├── LongestPalindromicSubstring.cpp
+    │   └── test_longest_palindromic_substring.cpp
+    └── ...
 
 ```
